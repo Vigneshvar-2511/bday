@@ -1,0 +1,67 @@
+*{
+    
+    font-family: 'Edu SA Beginner', cursive;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+body
+{
+    height: 100%;
+    margin: 0;
+    overflow:auto;
+}
+h1
+{
+    position: relative;
+    color: azure;
+    font-size: 100px;
+    text-align:center;
+    text-shadow: azure;
+}
+p
+{
+    position: relative;
+    color: azure;
+    text-align: start;
+    text-indent: 5%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pic
+{
+    position: relative;
+    
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    position: relative;
+
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 25%;
+    padding: 2px;
+}
+.map
+{
+    position: relative;
+}
+
